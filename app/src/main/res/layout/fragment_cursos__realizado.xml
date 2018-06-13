@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.curriculo_vitae.CURSOS_REALIZADOS">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#7fded946">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="103dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="77dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="72dp"
+            android:text="Curso "
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="265dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="120dp"
+            android:text="Centro Ocupacional  "
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="96dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="108dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="238dp"
+            android:layout_marginTop="24dp"
+            android:text="UNIDEC"
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintVertical_bias="0.016" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="197dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="120dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="68dp"
+            android:text="Operador Tecnico                         En Sistemas"
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="304dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CURSOS REALIZADOS"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textColorLink="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

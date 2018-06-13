@@ -1,0 +1,196 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.curriculo_vitae.FORMACION_ACADEMICA">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#7fded946">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="226dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="17dp"
+            android:drawableLeft="?attr/colorBackgroundFloating"
+            android:inputType="none"
+            android:text="Escuela Mary  Frecia Rodriguez"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText9" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="220dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="29dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="7dp"
+            android:text="Colegio Fiscal Mixto 21 de Julio"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/editText12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="151dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="45dp"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="9dp"
+            android:text=" Bachiller en Ciencias"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="324dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="21dp"
+            android:text="Cursando la Carrera Licenciatura En Sistema"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="205dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="17dp"
+            android:text="Facultad Ingenieria Industrial"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="265dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#7fded946"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="FORMACION ACADEMICA"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/editText9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="115dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="233dp"
+            android:layout_marginStart="26dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="PRIMARIA:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SECUNDARIA TITULO OBTENIDO:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="106dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SUPERIOR:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="181dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="50dp"
+            android:text="Universidad De Guayaquil"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editText13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
